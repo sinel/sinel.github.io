@@ -18,7 +18,7 @@ body {
   line-height: 1.7;
   display: flex;
   align-items: center;
-  background-color: #fecf49;
+  background-color: #52351b;
 }
 
 img {
@@ -29,13 +29,13 @@ img {
 ::selection {
   text-shadow: none;
   color: #fff;
-  background: #fecf49;
+  background: #52351b;
 }
 
 ::-moz-selection {
   text-shadow: none;
   color: #fff;
-  background: #fecf49;
+  background: #52351b;
 }
 
 h1 {
@@ -410,7 +410,7 @@ a:hover {
 }
 
 html a.social-link:hover:before {
-  color: #fecf49;
+  color: #52351b;
   background: #fff;
   border-color: #fff;
 }
