@@ -101,7 +101,7 @@ a:hover {
 }
 
 span.fab:hover {
-  color: #4780ae;
+  opacity: 0.5
 }
 
 /* Larger desktopss */
