@@ -13,12 +13,12 @@ html, body {
 
 body {
   font-family: 'Helvetica', sans-serif;
-  color: #000;
+  color: #fff;
   font-size: 14px;
   line-height: 1.7;
   display: flex;
   align-items: center;
-  background-color: #dd0b2c;
+  background-color: #fecf49;
 }
 
 img {
@@ -28,14 +28,14 @@ img {
 
 ::selection {
   text-shadow: none;
-  color: #000;
-  background: #FFF9CD;
+  color: #fff;
+  background: #fecf49;
 }
 
 ::-moz-selection {
   text-shadow: none;
-  color: #000;
-  background: #FFF9CD;
+  color: #fff;
+  background: #fecf49;
 }
 
 h1 {
@@ -51,7 +51,7 @@ h2 {
 }
 
 a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -402,47 +402,47 @@ a:hover {
   padding: 0;
   text-align: center;
   font-family: "fontello", sans-serif;
-  color: #000;
-  border: 1px solid #000;
-  border-radius: 50%;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 30%;
   text-decoration: none;
   transition: all 0.3s;
 }
 
 html a.social-link:hover:before {
-  color: #dd0b2c;
-  background: #000;
-  border-color: #000;
+  color: #fecf49;
+  background: #fff;
+  border-color: #fff;
 }
 
 .social-link.linkedin:before {
   content: '\e827';
-  color: #000;
-  border-color: #000;
+  color: #fff;
+  border-color: #fff;
 }
 
 .social-link.github:before {
   content: '\e82a';
-  color: #000;
-  border-color: #000;
+  color: #fff;
+  border-color: #fff;
 }
 
 .social-link.email:before {
   content: "\e87e";
-  color: #000;
-  border-color: #000;
+  color: #fff;
+  border-color: #fff;
 }
 
 .social-link.linkedin:hover:before {
-  background-color: #000;
+  background-color: #fff;
 }
 
 .social-link.github:hover:before {
-  background-color: #000;
+  background-color: #fff;
 }
 
 .social-link.email:hover:before {
-  background-color: #000;
+  background-color: #fff;
 }
 
 /* Big Social Icons */
