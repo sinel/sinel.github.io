@@ -453,13 +453,13 @@ html a.social-link:hover:before {
   line-height: 24px;
 }
 
-/* Minmal Social Icons */
+/* Minimal Social Icons */
 
 .is-social-minimal .social-link:before {
   border: none !important;
 }
 
-/* Minmal Social Icons */
+/* Minimal Social Icons */
 
 .is-social-minimal-dark .social-link, .is-social-minimal-light .social-link, .is-social-light-borders .social-link, .is-social-dark-borders .social-link, .is-social-solid .social-link {
   color: inherit;
