@@ -42,12 +42,14 @@ h1 {
   font-weight: bold;
   margin: 0;
   padding: 0;
+  white-space: nowrap;
 }
 
 h2 {
   font-weight: normal;
   margin: 0;
   padding: 0;
+  white-space: nowrap;
 }
 
 a {
@@ -139,7 +141,7 @@ a:hover {
 
 @media screen and (min-width: 1200px) {
   h1 {
-    font-size: 14em;
+    font-size: 12em;
   }
   .aws-logo {
     height: 16px;
