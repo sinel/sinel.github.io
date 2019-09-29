@@ -101,7 +101,7 @@ a:hover {
   display: block;
 }
 
-span.fab:hover {
+.fab:hover {
   opacity: 0.9
 }
 
@@ -155,13 +155,9 @@ span.fab:hover {
   .farsimple-link {
     font-size: 0.8em;
   }
-  .social-link {
+  .fab {
     margin: 6px 12px 6px 0;
-  }
-  .social-link:before {
     font-size: 24px;
-    width: 18px;
-    line-height: 18px;
   }
 }
 
@@ -388,143 +384,3 @@ span.fab:hover {
     height: 12px;
   }
 } */
-
-/* SOCIAL LINKS */
-
-.social-link {
-  display: inline-block;
-  /* margin: 8px 16px 8px 0; */
-  text-decoration: none;
-  user-select: none;
-}
-
-.social-link:active {
-  transform: scale(0.8);
-}
-
-.social-link:before {
-  display: inline-block;
-  padding: 0;
-  text-align: center;
-  font-family: "fontello", sans-serif;
-  color: #fff;
-  border: 1px solid #fff;
-  border-radius: 30%;
-  text-decoration: none;
-  transition: all 0.3s;
-}
-
-html a.social-link:hover:before {
-  color: #4780ae;
-  background: #fff;
-  border-color: #fff;
-}
-
-.social-link.linkedin:before {
-  content: '\e827';
-  color: #fff;
-  border-color: #fff;
-}
-
-.social-link.github:before {
-  content: '\e82a';
-  color: #fff;
-  border-color: #fff;
-}
-
-.social-link.email:before {
-  content: "\e87e";
-  color: #fff;
-  border-color: #fff;
-}
-
-.social-link.linkedin:hover:before {
-  background-color: #fff;
-}
-
-.social-link.github:hover:before {
-  background-color: #fff;
-}
-
-.social-link.email:hover:before {
-  background-color: #fff;
-}
-
-/* Big Social Icons */
-
-.is-social-big .social-link:before {
-  font-size: 32px;
-  width: 24px;
-  line-height: 24px;
-}
-
-/* Minimal Social Icons */
-
-.is-social-minimal .social-link:before {
-  border: none !important;
-}
-
-/* Minimal Social Icons */
-
-.is-social-minimal-dark .social-link, .is-social-minimal-light .social-link, .is-social-light-borders .social-link, .is-social-dark-borders .social-link, .is-social-solid .social-link {
-  color: inherit;
-}
-
-/* Minimal Dark Social Icons */
-
-.is-social-minimal-dark .social-link:before {
-  border: none !important;
-  color: inherit;
-}
-
-/* Minimal Light Social Icons */
-
-.is-social-minimal-light .social-link:before {
-  border: none !important;
-  color: rgba(0, 0, 0, 0.25);
-}
-
-.is-text-light .is-social-minimal-light .social-link:not(:hover):before {
-  color: rgba(255, 255, 255, 0.3);
-}
-
-/* Solid Social Icons */
-
-.is-social-solid .social-link:before {
-  border: none !important;
-  color: inherit;
-}
-
-.is-social-solid .social-link:not(:hover):before {
-  background: rgba(0, 0, 0, 0.04);
-}
-
-.is-text-light .is-social-solid .social-link:not(:hover):before {
-  background: rgba(255, 255, 255, 0.08);
-}
-
-/* Light Borders Social Icons */
-
-.is-social-light-borders .social-link:before {
-  border-color: rgba(0, 0, 0, 0.09) !important;
-  color: inherit;
-}
-
-.is-text-light .is-social-light-borders .social-link:before {
-  border-color: rgba(255, 255, 255, 0.13) !important;
-}
-
-/* Dark Borders Social Icons */
-
-.is-social-dark-borders .social-link:before {
-  border-color: rgba(0, 0, 0, 0.75) !important;
-  color: inherit;
-}
-
-.is-text-light .is-social-dark-borders .social-link:before {
-  border-color: rgba(255, 255, 255, 0.8) !important;
-}
-
-.is-social-dark-borders .social-link:hover:before {
-  border-color: transparent !important;
-}
