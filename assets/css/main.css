@@ -59,29 +59,23 @@ a:hover {
   text-decoration: underline;
 }
 
-.centered {
+.center {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.corner-tl {
-  position: fixed;
-  top: 60px;
-  left: 60px;
-}
-
 .corner-bl {
-  position: fixed;
-  bottom: 10px;
-  left: 60px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 .corner-br {
-  position: fixed;
-  bottom: 10px;
-  right: 20px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 .farsimple-link {
