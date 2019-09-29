@@ -412,13 +412,13 @@ a:hover {
 html a.social-link:hover:before {
   color: #dd0b2c;
   background: #000;
-  border-color: transparent;
+  border-color: #dd0b2c;
 }
 
 .social-link.linkedin:before {
   content: '\e827';
-  color: #0077B5;
-  border-color: #0077B5;
+  color: #000;
+  border-color: #dd0b2c;
 }
 
 .social-link.github:before {
