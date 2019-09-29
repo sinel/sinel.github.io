@@ -403,7 +403,7 @@ a:hover {
   text-align: center;
   font-family: "fontello", sans-serif;
   color: #000;
-  border: 1px solid #dd0b2c;
+  border: 1px solid #000;
   border-radius: 50%;
   text-decoration: none;
   transition: all 0.3s;
@@ -412,25 +412,25 @@ a:hover {
 html a.social-link:hover:before {
   color: #dd0b2c;
   background: #000;
-  border-color: #dd0b2c;
+  border-color: #000;
 }
 
 .social-link.linkedin:before {
   content: '\e827';
   color: #000;
-  border-color: #dd0b2c;
+  border-color: #000;
 }
 
 .social-link.github:before {
   content: '\e82a';
   color: #000;
-  border-color: #dd0b2c;
+  border-color: #000;
 }
 
 .social-link.email:before {
   content: "\e87e";
   color: #000;
-  border-color: #dd0b2c;
+  border-color: #000;
 }
 
 .social-link.linkedin:hover:before {
