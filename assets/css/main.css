@@ -62,7 +62,6 @@ a:hover {
 .center {
   position: absolute;
   height: 50%;
-  width: 50%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -106,22 +105,22 @@ a:hover {
 
 @media screen and (min-width: 2400px) {
   h1 {
-    font-size: 3.2em;
+    font-size: 6.4em;
     margin-bottom: 50px;
   }
   h2 {
     font-size: 2em;
   }
   .aws-logo {
-    height: 24px;
+    height: 18px;
     margin-bottom: 25px;
   }
   .aws-saa-tag {
-    height: 16px;
+    height: 12px;
     margin-bottom: 5px;
   }
   .aws-dva-tag {
-    height: 16px;
+    height: 12px;
   }
   .farsimple-link {
     font-size: 1em;
@@ -130,9 +129,9 @@ a:hover {
     margin: 8px 16px 8px 0;
   }
   .social-link:before {
-    font-size: 36px;
-    width: 28px;
-    line-height: 28px;
+    font-size: 24px;
+    width: 18px;
+    line-height: 18px;
   }
 }
 
