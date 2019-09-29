@@ -1,0 +1,561 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.7;
+  display: flex;
+  align-items: center;
+  background-color: #000;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+::selection {
+  text-shadow: none;
+  color: #000;
+  background: #FFF9CD;
+}
+
+::-moz-selection {
+  text-shadow: none;
+  color: #000;
+  background: #FFF9CD;
+}
+
+h1 {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.corner-tl {
+  position: fixed;
+  top: 60px;
+  left: 60px;
+}
+
+.corner-bl {
+  position: fixed;
+  bottom: 10px;
+  left: 60px;
+}
+
+.corner-br {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+}
+
+.farsimple-link {
+  display: block;
+}
+
+.aws-logo {
+  display: block;
+}
+
+.aws-saa-tag {
+  display: block;
+}
+
+.aws-dva-tag {
+  display: block;
+}
+
+/* Larger desktopss */
+
+@media screen and (min-width: 2400px) {
+  h1 {
+    font-size: 3.2em;
+    margin-bottom: 50px;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  .aws-logo {
+    height: 24px;
+    margin-bottom: 25px;
+  }
+  .aws-saa-tag {
+    height: 16px;
+    margin-bottom: 5px;
+  }
+  .aws-dva-tag {
+    height: 16px;
+  }
+  .farsimple-link {
+    font-size: 1em;
+  }
+  .social-link {
+    margin: 8px 16px 8px 0;
+  }
+  .social-link:before {
+    font-size: 36px;
+    width: 28px;
+    line-height: 28px;
+  }
+}
+
+/* Large desktops and laptops */
+
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 3em;
+    margin-bottom: 40px;
+  }
+  h2 {
+    font-size: 1.8em;
+  }
+  .aws-logo {
+    height: 22px;
+    margin-bottom: 20px;
+  }
+  .aws-saa-tag {
+    height: 14px;
+    margin-bottom: 5px;
+  }
+  .aws-dva-tag {
+    height: 14px;
+  }
+  .farsimple-link {
+    font-size: 0.9em;
+  }
+  .social-link {
+    margin: 6px 14px 6px 0;
+  }
+  .social-link:before {
+    font-size: 32px;
+    width: 26px;
+    line-height: 26px;
+  }
+}
+
+/* Landscape tablets and medium desktops */
+
+@media screen and (min-width: 1025px) and (max-width: 1199px) {
+  h1 {
+    font-size: 2.8em;
+    margin-bottom: 35px;
+  }
+  h2 {
+    font-size: 1.6em;
+  }
+  .aws-logo {
+    height: 1.4em;
+    margin-bottom: 1.25em;
+  }
+  .aws-saa-tag {
+    height: 0.9em;
+    margin-bottom: 0.3em;
+  }
+  .aws-dva-tag {
+    height: 0.9em;
+  }
+  .farsimple-link {
+    font-size: 0.9em;
+  }
+  .social-link {
+    margin: 4px 12px 4px 0;
+  }
+  .social-link:before {
+    font-size: 30px;
+    width: 24px;
+    line-height: 24px;
+  }
+}
+
+/* Portrait tablets and small desktops */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  h1 {
+    font-size: 2.4em;
+    margin-bottom: 30px;
+  }
+  h2 {
+    font-size: 1.6em;
+  }
+  .aws-logo {
+    height: 1.25em;
+    margin-bottom: 1em;
+  }
+  .aws-saa-tag {
+    height: 0.75em;
+    margin-bottom: 0.3em;
+  }
+  .aws-dva-tag {
+    height: 0.75em;
+  }
+  .farsimple-link {
+    font-size: 0.8em;
+  }
+  .social-link {
+    margin: 4px 12px 4px 0;
+  }
+  .social-link:before {
+    font-size: 28px;
+    width: 22px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  h1 {
+    font-size: 2.4em;
+    margin-bottom: 30px;
+  }
+  h2 {
+    font-size: 1.6em;
+  }
+  .aws-logo {
+    height: 1.25em;
+    margin-bottom: 1em;
+  }
+  .aws-saa-tag {
+    height: 0.75em;
+    margin-bottom: 0.3em;
+  }
+  .aws-dva-tag {
+    height: 0.75em;
+  }
+  .farsimple-link {
+    font-size: 0.8em;
+  }
+  .social-link {
+    margin: 4px 12px 4px 0;
+  }
+  .social-link:before {
+    font-size: 28px;
+    width: 22px;
+    line-height: 22px;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+
+@media screen and (min-width: 321px) and (max-width: 767px) {
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 1.2em;
+  }
+  .aws-logo {
+    height: 1.1em;
+    margin-bottom: 0.65em;
+  }
+  .aws-saa-tag {
+    height: 0.65em;
+    margin-bottom: 0.25em;
+  }
+  .aws-dva-tag {
+    height: 0.65em;
+  }
+  .farsimple-link {
+    font-size: 0.65em;
+  }
+  .social-link {
+    margin: 2px 8px 2px 0;
+  }
+  .social-link:before {
+    font-size: 24px;
+    width: 20px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 767px) and (orientation: portrait) {
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 1.2em;
+  }
+  .aws-logo {
+    height: 1.1em;
+    margin-bottom: 0.65em;
+  }
+  .aws-saa-tag {
+    height: 0.65em;
+    margin-bottom: 0.25em;
+  }
+  .aws-dva-tag {
+    height: 0.65em;
+  }
+  .farsimple-link {
+    font-size: 0.65em;
+  }
+  .social-link {
+    margin: 2px 8px 2px 0;
+  }
+  .social-link:before {
+    font-size: 24px;
+    width: 20px;
+    line-height: 20px;
+  }
+}
+
+/* Portrait phones and smaller */
+
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  .aws-logo {
+    height: 1em;
+    margin-bottom: 0.5em;
+  }
+  .aws-saa-tag {
+    height: 0.5em;
+    margin-bottom: 0.2em;
+  }
+  .aws-dva-tag {
+    height: 0.5em;
+  }
+  .farsimple-link {
+    font-size: 0.5em;
+  }
+  .social-link {
+    margin: 2px 8px 2px 0;
+  }
+  .social-link:before {
+    font-size: 22px;
+    width: 18px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 320px) and (orientation: portrait) {
+  h1 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  .aws-logo {
+    height: 1em;
+    margin-bottom: 0.5em;
+  }
+  .aws-saa-tag {
+    height: 0.5em;
+    margin-bottom: 0.2em;
+  }
+  .aws-dva-tag {
+    height: 0.5em;
+  }
+  .farsimple-link {
+    font-size: 0.5em;
+  }
+  .social-link {
+    margin: 2px 8px 2px 0;
+  }
+  .social-link:before {
+    font-size: 22px;
+    width: 18px;
+    line-height: 18px;
+  }
+}
+
+/* @media (min-width: 768px) and (max-width: 1024px) and (min-height: 480px) and (max-height: 768px) {
+  h1 {
+    font-size: 2.4em;
+  }
+  h2 {
+    font-size: 1.6em;
+  }
+  .aws-logo {
+    height: 18px;
+    margin-bottom: 20px;
+  }
+  .aws-saa-tag {
+    height: 12px;
+    margin-bottom: 2px;
+  }
+  .aws-dva-tag {
+    height: 12px;
+  }
+} */
+
+/* SOCIAL LINKS */
+
+.social-link {
+  display: inline-block;
+  /* margin: 8px 16px 8px 0; */
+  text-decoration: none;
+  user-select: none;
+}
+
+.social-link:active {
+  transform: scale(0.8);
+}
+
+.social-link:before {
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  font-family: "fontello", sans-serif;
+  color: #555;
+  border: 1px solid #eee;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+html a.social-link:hover:before {
+  color: #fff;
+  background: #444;
+  border-color: transparent;
+}
+
+.social-link.linkedin:before {
+  content: '\e827';
+  color: #0077B5;
+  border-color: #0077B5;
+}
+
+.social-link.github:before {
+  content: '\e82a';
+  color: #222;
+  border-color: #222;
+}
+
+.social-link.email:before {
+  content: "\e87e";
+  color: #222;
+  border-color: #222;
+}
+
+.social-link.linkedin:hover:before {
+  background-color: #0077B5;
+}
+
+.social-link.github:hover:before {
+  background-color: #000;
+}
+
+.social-link.email:hover:before {
+  background-color: #222;
+}
+
+/* Big Social Icons */
+
+.is-social-big .social-link:before {
+  font-size: 32px;
+  width: 24px;
+  line-height: 24px;
+}
+
+/* Minmal Social Icons */
+
+.is-social-minimal .social-link:before {
+  border: none !important;
+}
+
+/* Minmal Social Icons */
+
+.is-social-minimal-dark .social-link, .is-social-minimal-light .social-link, .is-social-light-borders .social-link, .is-social-dark-borders .social-link, .is-social-solid .social-link {
+  color: inherit;
+}
+
+/* Minimal Dark Social Icons */
+
+.is-social-minimal-dark .social-link:before {
+  border: none !important;
+  color: inherit;
+}
+
+/* Minimal Light Social Icons */
+
+.is-social-minimal-light .social-link:before {
+  border: none !important;
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.is-text-light .is-social-minimal-light .social-link:not(:hover):before {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+/* Solid Social Icons */
+
+.is-social-solid .social-link:before {
+  border: none !important;
+  color: inherit;
+}
+
+.is-social-solid .social-link:not(:hover):before {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.is-text-light .is-social-solid .social-link:not(:hover):before {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+/* Light Borders Social Icons */
+
+.is-social-light-borders .social-link:before {
+  border-color: rgba(0, 0, 0, 0.09) !important;
+  color: inherit;
+}
+
+.is-text-light .is-social-light-borders .social-link:before {
+  border-color: rgba(255, 255, 255, 0.13) !important;
+}
+
+/* Dark Borders Social Icons */
+
+.is-social-dark-borders .social-link:before {
+  border-color: rgba(0, 0, 0, 0.75) !important;
+  color: inherit;
+}
+
+.is-text-light .is-social-dark-borders .social-link:before {
+  border-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.is-social-dark-borders .social-link:hover:before {
+  border-color: transparent !important;
+}
