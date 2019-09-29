@@ -429,12 +429,12 @@ html a.social-link:hover:before {
 
 .social-link.email:before {
   content: "\e87e";
-  color: #222;
-  border-color: #222;
+  color: #000;
+  border-color: #dd0b2c;
 }
 
 .social-link.linkedin:hover:before {
-  background-color: #0077B5;
+  background-color: #000;
 }
 
 .social-link.github:hover:before {
@@ -442,7 +442,7 @@ html a.social-link:hover:before {
 }
 
 .social-link.email:hover:before {
-  background-color: #222;
+  background-color: #000;
 }
 
 /* Big Social Icons */
