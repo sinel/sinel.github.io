@@ -14,7 +14,6 @@ html, body {
 body {
   font-family: 'Helvetica', sans-serif;
   color: #fff;
-  line-height: 1.5;
   display: flex;
   align-items: center;
   background-color: #4780ae;
@@ -39,16 +38,18 @@ img {
 
 h1 {
   font-weight: bold;
+  line-height: 2;
+  white-space: nowrap;
   margin: 0;
   padding: 0;
-  white-space: nowrap;
 }
 
 h2 {
   font-weight: normal;
+  line-height: 1.5;
+  white-space: nowrap;
   margin: 0;
   padding: 0;
-  white-space: nowrap;
 }
 
 a {
