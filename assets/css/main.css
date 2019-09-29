@@ -423,8 +423,8 @@ html a.social-link:hover:before {
 
 .social-link.github:before {
   content: '\e82a';
-  color: #222;
-  border-color: #222;
+  color: #000;
+  border-color: #dd0b2c;
 }
 
 .social-link.email:before {
